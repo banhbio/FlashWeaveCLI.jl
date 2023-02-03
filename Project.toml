@@ -1,0 +1,13 @@
+name = "FlashWeaveCLI"
+uuid = "5e85462d-db60-4b98-8027-de7b211c77e5"
+authors = ["banhbio <ban@kuicr.kyoto-u.ac.jp> and contributors"]
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1.8.4"
+
+[targets]
+test = ["Test"]
