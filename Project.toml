@@ -3,11 +3,17 @@ uuid = "5e85462d-db60-4b98-8027-de7b211c77e5"
 authors = ["banhbio <ban@kuicr.kyoto-u.ac.jp> and contributors"]
 version = "0.1.0"
 
-[extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+[deps]
+Comonicon = "863f3e99-da2a-4334-8734-de3dacbe5542"
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+FlashWeave = "2be3f83a-7913-5748-9f20-7d448995b934"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 
 [compat]
-julia = "1.8.4"
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
 test = ["Test"]

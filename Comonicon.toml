@@ -1,0 +1,19 @@
+name = "flashweave"
+
+[install]
+completion=true
+quiet=false
+compile="min"
+optimize=2
+
+[sysimg]
+incremental=false
+filter_stdlibs=true
+
+[sysimg.precompile]
+execution_file = ["deps/precompile.jl"]
+
+[download]
+host="github.com"
+user="banhbio"
+repo="FlashWeaveCLI.jl"
